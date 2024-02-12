@@ -2,15 +2,9 @@
 import random
 import prompt
 
+print('Welcome to the Brain Games!')
 name = prompt.string('May I have your Name?\n')
-
-
-def welcome_user():
-    print(f'Hello, {name.capitalize()}!')
-
-
-welcome_user()
-
+print(f'Hello, {name.capitalize()}!')
 print('Answer "yes" if the number is even, otherwise answer "no".')
 
 
