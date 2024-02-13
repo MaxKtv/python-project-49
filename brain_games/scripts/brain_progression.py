@@ -7,15 +7,14 @@ print(f'Hello, {name.capitalize()}!')
 print('What number is missing in the progression?')
 
 
-
 def random_generator():
     return random.randint(1, 100)
+
 
 def build_progression():
     step = random.randint(1, 10)
     number_progression = random_generator()
     progression = []
-    vanished_number = progression
     while len(progression) < 10:
         progression.append(number_progression)
         number_progression += step
@@ -26,8 +25,6 @@ def build_progression():
 def main():
     count = 0
     while count <= 3:
-        random_number1 = random_generator()
-        random_number2 = random_generator()
         progression, step = build_progression()
         answer = prompt.string(f'Question: {progression}\n')
         print(f'Your answer is: {answer}')
