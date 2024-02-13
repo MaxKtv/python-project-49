@@ -8,4 +8,8 @@ Hexlet Brain Games Project
 
 [![asciicast](https://asciinema.org/a/K9SYt8y6JZF3q7SA9I9BLmvX0.svg)](https://asciinema.org/a/K9SYt8y6JZF3q7SA9I9BLmvX0)
 
+[![asciicast](https://asciinema.org/a/e6ilv5tW53uKQSKVnKAePLivI.svg)](https://asciinema.org/a/e6ilv5tW53uKQSKVnKAePLivI)
+
 [![asciicast](https://asciinema.org/a/LMtImohzp5kr2kK6z5YohrtoO.svg)](https://asciinema.org/a/LMtImohzp5kr2kK6z5YohrtoO)
+
+[![asciicast](https://asciinema.org/a/5vNR7aTkpPyK4v4pPefRAYwec.svg)](https://asciinema.org/a/5vNR7aTkpPyK4v4pPefRAYwec)
