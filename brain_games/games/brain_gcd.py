@@ -23,4 +23,3 @@ def check_task_solution():
     question = f'{random_number1} {random_number2}'
     solution = right_divisor(random_number1, random_number2)
     return question, solution
-
