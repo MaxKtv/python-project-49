@@ -1,12 +1,19 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
-authors = ["MaxKtv"]
+description = "My first Hexlet Project! Brain-Games"
+authors = ["MaxKtv <maximkutiaev@outlook.com>"]
 readme = "README.md"
+repository = "https://github.com/MaxKtv/python-project-49.git"
 packages = [
   { include = "brain_games" },
 ]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+prompt = "^0.4.1"
+
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
@@ -16,13 +23,6 @@ brain-gcd = "brain_games.scripts.brain_gcd:main"
 brain-progression = "brain_games.scripts.brain_progression:main"
 brain-prime = "brain_games.scripts.brain_prime:main"
 
-[tool.poetry.dependencies]
-python = "^3.10"
-prompt = "^0.4.1"
-
-
-[tool.poetry.group.dev.dependencies]
-flake8 = "^7.0.0"
 
 [build-system]
 requires = ["poetry-core"]
