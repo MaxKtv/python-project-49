@@ -4,7 +4,10 @@ task = 'Find the greatest common divisor of given numbers.'
 
 
 def right_divisor(random_number1, random_number2):
-    if random_number1 % random_number2 == 0:
+    if random_number1 == random_number2:
+        divisor = random_number1
+        return divisor
+    elif random_number1 % random_number2 == 0:
         divisor = 1
         return divisor
     else:
