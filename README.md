@@ -1,15 +1,32 @@
-Hexlet Brain Games Project
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/MaxKtv/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/MaxKtv/python-project-49/actions)
+## Hexlet tests and linter status:
 
-<a href="https://codeclimate.com/github/MaxKtv/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/107a15731a1ffe0766fa/maintainability" /></a>
+[![Actions Status](https://github.com/MaxKtv/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/MaxKtv/python-project-49/actions) <a href="https://codeclimate.com/github/MaxKtv/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/107a15731a1ffe0766fa/maintainability" /></a>
+***
+## System Requirements:
 
-[![asciicast](https://asciinema.org/a/2sbk6muZk7BQCXt13IyfcWfib.svg)](https://asciinema.org/a/2sbk6muZk7BQCXt13IyfcWfib)
+#### Unix* operating system
 
-[![asciicast](https://asciinema.org/a/K9SYt8y6JZF3q7SA9I9BLmvX0.svg)](https://asciinema.org/a/K9SYt8y6JZF3q7SA9I9BLmvX0)
+#### Python3
 
-[![asciicast](https://asciinema.org/a/e6ilv5tW53uKQSKVnKAePLivI.svg)](https://asciinema.org/a/e6ilv5tW53uKQSKVnKAePLivI)
+#### Pip v20.0 +
+***
+## Installation:
 
-[![asciicast](https://asciinema.org/a/LMtImohzp5kr2kK6z5YohrtoO.svg)](https://asciinema.org/a/LMtImohzp5kr2kK6z5YohrtoO)
+#### to install use:
+> python3 -m pip install --user https://github.com/MaxKtv/python-project-49/archive/refs/heads/main.zip
 
-[![asciicast](https://asciinema.org/a/5vNR7aTkpPyK4v4pPefRAYwec.svg)](https://asciinema.org/a/5vNR7aTkpPyK4v4pPefRAYwec)
+
+<a href="https://asciinema.org/a/UpBTr6ZWsXrKLJsHUYdQTVzyB" target="_blank">Installation</a>
+
+***
+## Demos:
+<a href="https://asciinema.org/a/yhnPpB5AUtQ0ynR9XXhA6ZzHD" target="_blank">Brain-even</a>
+
+<a href="https://asciinema.org/a/ekUWOas9SnvmKLRNoPr6PzGtl" target="_blank">Brain-calc</a>
+
+<a href="https://asciinema.org/a/gn8oDJnJIpqoisPqW08eqAXeu" target="_blank">Brain-gdc</a>
+
+<a href="https://asciinema.org/a/CGPurIpowUxkHMhvLjpEfYHwh" target="_blank">brain-prime</a>
+
+<a href="https://asciinema.org/a/8bDjosqpocvrTyIBBUrKHKPvg" target="_blank">brain-progression</a>
+
