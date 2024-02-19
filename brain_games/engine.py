@@ -3,7 +3,7 @@ import prompt
 
 def greet_user():
     print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your Name?\n').capitalize()
+    name = prompt.string('May I have your name?\n').capitalize()
     print(f'Hello, {name}!')
     return name
 
