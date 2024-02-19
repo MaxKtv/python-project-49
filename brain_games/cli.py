@@ -2,5 +2,6 @@ import prompt
 
 
 def welcome_user():
-    name = prompt.string('May I have your Name? ')
-    print(f'Hello, {name.capitalize()}!')
+    print("Welcome to the Brain Games!")
+    name = prompt.string('May I have your name? ').capitalize()
+    print(f'Hello, {name}!')
