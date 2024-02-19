@@ -7,8 +7,11 @@
 #### Unix* operating system
 
 #### Python3
+> sudo apt update
 
-#### Pip v20.0 +
+> sudo apt install python3 -y
+#### Pip
+> sudo apt install python3-pip -y
 ***
 ## Installation:
 
