@@ -7,9 +7,6 @@ def right_divisor(random_number1, random_number2):
     if random_number1 == random_number2:
         divisor = random_number1
         return divisor
-    elif random_number1 % random_number2 == 0:
-        divisor = 1
-        return divisor
     else:
         while random_number1 != 0 and random_number2 != 0:
             if random_number1 > random_number2:
