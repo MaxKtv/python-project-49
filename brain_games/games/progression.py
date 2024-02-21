@@ -1,12 +1,10 @@
 from random import randint
 
 
-task = 'What number is missing in the progression?'
+TASK = 'What number is missing in the progression?'
 
 
-def check_task_solution():
-    step = randint(1, 10)
-    number_progression = randint(1, 100)
+def get_progression(number_progression, step):
     progression = []
     while len(progression) < 10:
         progression.append(number_progression)
@@ -16,3 +14,10 @@ def check_task_solution():
     solution = progression[missing_progression - 1] + step
     progression = ' '.join(str(i) for i in progression)
     return progression, solution
+
+
+def generate_qns():
+    number_progression = randint(1, 100)
+    step = randint(1, 10)
+    question, solution = get_progression(number_progression, step)
+    return question, solution

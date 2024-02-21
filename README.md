@@ -27,7 +27,7 @@
 
 <a href="https://asciinema.org/a/ekUWOas9SnvmKLRNoPr6PzGtl" target="_blank">Brain-calc</a>
 
-<a href="https://asciinema.org/a/gn8oDJnJIpqoisPqW08eqAXeu" target="_blank">Brain-gdc</a>
+<a href="https://asciinema.org/a/gn8oDJnJIpqoisPqW08eqAXeu" target="_blank">Brain-gcd</a>
 
 <a href="https://asciinema.org/a/CGPurIpowUxkHMhvLjpEfYHwh" target="_blank">brain-prime</a>
 
