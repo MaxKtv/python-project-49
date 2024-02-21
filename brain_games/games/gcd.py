@@ -1,6 +1,7 @@
 from random import randint
 
 TASK = 'Find the greatest common divisor of given numbers.'
+FROM_NUMBER, TO_NUMBER = 1, 100
 
 
 def get_right_divisor(random_number1, random_number2):
@@ -14,8 +15,8 @@ def get_right_divisor(random_number1, random_number2):
 
 
 def generate_qns():
-    random_number1 = randint(1, 100)
-    random_number2 = randint(1, 100)
+    random_number1 = randint(FROM_NUMBER, TO_NUMBER)
+    random_number2 = randint(FROM_NUMBER, TO_NUMBER)
     question = f'{random_number1} {random_number2}'
     solution = get_right_divisor(random_number1, random_number2)
     return question, solution

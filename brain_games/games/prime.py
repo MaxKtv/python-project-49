@@ -1,6 +1,7 @@
 from random import randint
 
 TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+FROM_NUMBER, TO_NUMBER = 1, 100
 
 
 def is_prime_number(number):
@@ -15,6 +16,6 @@ def is_prime_number(number):
 
 
 def generate_qns():
-    random_number = randint(1, 100)
+    random_number = randint(FROM_NUMBER, TO_NUMBER)
     solution = is_prime_number(random_number)
     return random_number, solution
