@@ -8,13 +8,14 @@ def is_prime_number(number):
     while number % step != 0:
         step += 1
         if number == 1:
-            return True, 'yes'
-    return step == number, 'yes'
+            return 'yes'
+        elif step == number:
+            return 'yes'
+        else:
+            return 'no'
 
 
 def generate_qns():
     random_number = randint(1, 100)
-    result, solution = is_prime_number(random_number)
-    if not result:
-        solution = 'no'
+    solution = is_prime_number(random_number)
     return random_number, solution

@@ -5,12 +5,13 @@ TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def is_number_even(number):
-    return number % 2 == 0, 'yes'
+    if number % 2 == 0:
+        return 'yes'
+    else:
+        return 'no'
 
 
 def generate_qns():
     random_number = randint(1, 100)
-    result, solution = is_number_even(random_number)
-    if not result:
-        solution = 'no'
+    solution = is_number_even(random_number)
     return random_number, solution
