@@ -17,21 +17,36 @@
 
 ### First Way (pip)
 
-#### to install use:
+to install use:
+
 > `python3 -m pip install --user https://github.com/MaxKtv/python-project-49/archive/refs/heads/main.zip`
 
-### Second Way (Makefile)
 
-> download and extrat zip file https://github.com/MaxKtv/python-project-49/archive/refs/heads/main.zip
-#### Next use:
+### Second Way (clone repo)
 
-> `make install` to install poetry packages.
+ to clone repository - in any directory/folder use:
 
-> `make build` to build your packages inside your project.
+>`git clone https://github.com/MaxKtv/python-project-49.git`
 
-> `make publish` to debug publishing.
 
-> `make package-install` to install the build-package from OS, to start using shell commands.
+to install poetry packages:
+
+> `make install` 
+
+
+to build your packages inside your project:
+
+
+> `make build` 
+
+
+to debug publishing:
+
+> `make publish` 
+
+to install the build-package from OS, to start using shell commands:
+
+> `make package-install` 
 
 <a href="https://asciinema.org/a/UpBTr6ZWsXrKLJsHUYdQTVzyB" target="_blank">Installation</a>
 
