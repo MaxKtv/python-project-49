@@ -2,27 +2,41 @@
 
 [![Actions Status](https://github.com/MaxKtv/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/MaxKtv/python-project-49/actions) <a href="https://codeclimate.com/github/MaxKtv/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/107a15731a1ffe0766fa/maintainability" /></a>
 ***
-## System Requirements:
+# System Requirements:
 
-#### Unix* operating system
+#### 1. Unix* operating system
 
-#### Python3
-> sudo apt update
+#### 2. Python3
+> `sudo apt update`
 
-> sudo apt install python3 -y
-#### Pip
-> sudo apt install python3-pip -y
+> `sudo apt install python3 -y`
+#### 3. Pip
+> `sudo apt install python3-pip -y`
 ***
-## Installation:
+# Installation:
+
+### First Way (pip)
 
 #### to install use:
-> python3 -m pip install --user https://github.com/MaxKtv/python-project-49/archive/refs/heads/main.zip
+> `python3 -m pip install --user https://github.com/MaxKtv/python-project-49/archive/refs/heads/main.zip`
 
+### Second Way (Makefile)
+
+> download and extrat zip file https://github.com/MaxKtv/python-project-49/archive/refs/heads/main.zip
+#### Next use:
+
+> `make install` to install poetry packages.
+
+> `make build` to build your packages inside your project.
+
+> `make publish` to debug publishing.
+
+> `make package-install` to install the build-package from OS, to start using shell commands.
 
 <a href="https://asciinema.org/a/UpBTr6ZWsXrKLJsHUYdQTVzyB" target="_blank">Installation</a>
 
 ***
-## Demos:
+# Demos:
 <a href="https://asciinema.org/a/yhnPpB5AUtQ0ynR9XXhA6ZzHD" target="_blank">Brain-even</a>
 
 <a href="https://asciinema.org/a/ekUWOas9SnvmKLRNoPr6PzGtl" target="_blank">Brain-calc</a>
